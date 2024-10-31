@@ -48,7 +48,8 @@ Ejemplo:
 Se debe almacenar el token en el cliente y cuando se ingrese a la pagina de libros en la parte superior debe estar el nombre del usuario Logueado con la opción de cerrar sesión.
 
 Este proyecto tambien busca probar tu alcance en la implementación de registro de cualquier formulario utilizando ApiRest y el manejo de autenticación con JWT.
-
+https://github.com/RonyAlejandro15/pruebaFrontEnd/blob/main/1.png
+https://github.com/RonyAlejandro15/pruebaFrontEnd/blob/main/2.png
 
 
 ## Requisitos
