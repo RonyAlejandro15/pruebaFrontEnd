@@ -19,7 +19,7 @@ Usa el archivo `books.json` para obtener los datos de los libros. Puedes añadir
 Y utiliza la siguiente ApiRest para gestionar la creación del usuario basica y el loguin del mismo utilizando JWT.
 
 El EndPint para crear usuario es: 
-POST: https://apirestmercado.azurewebsites.net/usuario/Crear
+POST: https://apimercapp.creapptech.com/usuario/Crear
 Se debe pasar como parametro el JSON:
     {
     "documento": 0,
@@ -29,7 +29,7 @@ Se debe pasar como parametro el JSON:
     }
 
 Y el EndPoint para Loguearse y recibir el Token es el siguiente:
-POST: https://apirestmercado.azurewebsites.net/usuario/Login
+POST: https://apimercapp.creapptech.com/usuario/Login
 Se debe pasar como parametro el JSON:
     {
     "correo": "string",
@@ -48,8 +48,11 @@ Ejemplo:
 Se debe almacenar el token en el cliente y cuando se ingrese a la pagina de libros en la parte superior debe estar el nombre del usuario Logueado con la opción de cerrar sesión.
 
 Este proyecto tambien busca probar tu alcance en la implementación de registro de cualquier formulario utilizando ApiRest y el manejo de autenticación con JWT.
-https://github.com/RonyAlejandro15/pruebaFrontEnd/blob/main/1.png
-https://github.com/RonyAlejandro15/pruebaFrontEnd/blob/main/2.png
+
+![Login (1)](https://github.com/RonyAlejandro15/pruebaFrontEnd/blob/main/1.png) ![Registro (1)](https://github.com/RonyAlejandro15/pruebaFrontEnd/blob/main/2.png)
+
+
+
 
 
 ## Requisitos
